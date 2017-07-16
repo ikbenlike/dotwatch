@@ -1,0 +1,9 @@
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+export XDG_CONFIG_HOME="$HOME/.config"
+sxhkd &
+compton -b -r 20 &
+polybar watch &
+lxqt-notificationd &
+exec bspwm

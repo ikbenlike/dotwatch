@@ -1,0 +1,13 @@
+export ZSH=/home/thewatcher/.oh-my-zsh
+ZSH_THEME="cyan-lambda"
+
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+cowsay -f stegosaurus "Welcome, $USER" | lolcat
+echo "\n"
+curl "wttr.in/?0"
+echo "\n"
+screenfetch -t
+export PATH="$HOME/opt/cross/bin:$HOME/dot/bin:$PATH"
