@@ -7,7 +7,15 @@ source $ZSH/oh-my-zsh.sh
 
 cowsay -f stegosaurus "Welcome, $USER" | lolcat
 echo "\n"
-curl "wttr.in/?0"
+curl -s "wttr.in/?0" | tail -n +2
 echo "\n"
 screenfetch -t
 export PATH="$HOME/opt/cross/bin:$HOME/dot/bin:$PATH"
+dprf() {
+    CURDIR=$(pwd)
+    cd ~/dot/bin
+    echo $(pwd)
+    dotter -f dotter_settings/reverse_files.toml deploy
+    echo "Dotter exited with $?"
+    cd $CURDIR
+}

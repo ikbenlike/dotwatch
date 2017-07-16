@@ -8,6 +8,17 @@ My dotfiles
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [polybar](https://github.com/jaagr/polybar)
 * Xorg
+* lolcat
+* cowsay
+* curl
+* fcitx
+* screenfetch
+
+## Fonts
+* Junicode
+* Noto Fonts
+* Droid TTF
+* Siji
 
 # Dotfiler used:
 
