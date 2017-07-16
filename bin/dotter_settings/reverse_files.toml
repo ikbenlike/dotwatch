@@ -6,3 +6,4 @@
 "~/.xinitrc" = "../files/xinitrc"
 "~/.Xresources" = "../files/Xresources"
 "~/.oh-my-zsh/themes/cyan-lambda.zsh-theme" = "../files/cyan-lambda.zsh-theme"
+"~/.themes/nngtk" = "../files/nngtk"
