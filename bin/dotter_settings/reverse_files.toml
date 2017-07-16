@@ -4,3 +4,4 @@
 "~/.config/xfce4/terminal/terminalrc" = "../files/xfce4/terminal/terminalrc"
 "~/.zshrc" = "../files/zshrc"
 "~/.xinitrc" = "../files/xinitrc"
+"~/.Xresources" = "Xresources"
