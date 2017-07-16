@@ -5,3 +5,4 @@
 "../files/zshrc" = "~/.zshrc" 
 "../files/xinitrc" = "~/.xinitrc"
 "../files/Xresources" = "~/.Xresources"
+"../files/cyan-lambda.zsh-theme" = "~/.oh-my-zsh/themes/cyan-lambda.zsh-theme"
