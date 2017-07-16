@@ -31,3 +31,6 @@ Polybar:
 
 General setup (with xfce4-terminal):
 ![](https://github.com/ikbenlike/dotwatch/blob/master/screenshots/Screenshot_2017-07-16_20-23-13.png?raw=true)
+
+GTK theme:
+![](https://github.com/ikbenlike/dotwatch/blob/master/screenshots/Screenshot_2017-07-16_20-55-23.png?raw=true)
