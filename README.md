@@ -28,3 +28,6 @@ My dotfiles
 
 Polybar:
 ![](https://github.com/ikbenlike/dotwatch/blob/master/screenshots/scren.png?raw=true)
+
+General setup (with xfce4-terminal):
+![](https://github.com/ikbenlike/dotwatch/blob/master/screenshots/Screenshot_2017-07-16_20-23-13.png?raw=true)
