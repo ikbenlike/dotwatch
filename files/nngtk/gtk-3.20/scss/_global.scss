@@ -7,11 +7,11 @@ $bg_color: if($variant == "dark", #eeeeee, #212121);
 $fg_color: if($variant == "dark", #212121, #eeeeee);
 $base_color: if($variant == "dark", #eeeeee, #212121);
 $text_color: if($variant == "dark", #212121, #eeeeee);
-$button_bg_color: if($variant == "dark", #eeeeee, #3f3f3f);
-$button_fg_color: if($variant == "dark", #3f3f3f, #eeeeee);
-$header_button_bg_color: #212121;
+$button_bg_color: if($variant == "dark", #eeeeee, #71c2af);
+$button_fg_color: if($variant == "dark", #71c2af, #eeeeee);
+$header_button_bg_color: #71c2af;
 $header_button_fg_color: #eeeeee;
-$selected_bg_color: #3f3f3f;
+$selected_bg_color: #71c2af;
 $selected_fg_color: #eeeeee;
 $tooltip_bg_color: #212121;
 $tooltip_fg_color: #eeeeee;
@@ -142,9 +142,9 @@ $backdrop_menu_color: if($variant == 'light', $backdrop_base_color, mix($backdro
 $drop_target_color: #4e9a06;
 
 // widget styles
-$_roundness: 2;
+$_roundness: 0;
 $_spacing: 4;
-$roundness: 2px;
+$roundness: 0px;
 $spacing: 4px;
 $gradient: 0.0;
 $contrast: .8;

@@ -7,11 +7,11 @@ $bg_color: if($variant == "dark", #eeeeee, #212121);
 $fg_color: if($variant == "dark", #212121, #eeeeee);
 $base_color: if($variant == "dark", #eeeeee, #212121);
 $text_color: if($variant == "dark", #212121, #eeeeee);
-$button_bg_color: if($variant == "dark", #eeeeee, #3f3f3f);
-$button_fg_color: if($variant == "dark", #3f3f3f, #eeeeee);
-$header_button_bg_color: #212121;
+$button_bg_color: if($variant == "dark", #eeeeee, #71c2af);
+$button_fg_color: if($variant == "dark", #71c2af, #eeeeee);
+$header_button_bg_color: #71c2af;
 $header_button_fg_color: #eeeeee;
-$selected_bg_color: #3f3f3f;
+$selected_bg_color: #71c2af;
 $selected_fg_color: #eeeeee;
 $tooltip_bg_color: #212121;
 $tooltip_fg_color: #eeeeee;
@@ -42,7 +42,7 @@ $question_fg_color: #fff;
 $question_bg_color: #673ab7;
 $error_fg_color: #fff;
 $error_bg_color: #f44336;
-$link_color: #3f3f3f;
+$link_color: #71c2af;
 $success_color: #4caf50;
 $warning_color: #ef6c00;
 $error_color: #f44336;
@@ -82,7 +82,7 @@ $wm_icons_unfocused_prelight: $selected_bg_color;
 $wm_icons_unfocused_pressed: shade($selected_bg_color, .8);
 
 // widget styles
-$roundness: 2px;
+$roundness: 0px;
 $spacing: 4px;
 $gradient: 0.0;
 
