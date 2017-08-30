@@ -4,11 +4,11 @@
 *.*.cursorColor:  #c0c5ce
 
 ! black
-*.*.color0:       #273941
-*.*.color8:       #456472
+*.*.color0:       #212121
+*.*.color8:       #333333
 
 ! red
-*.*.color1:       #a66363
+*.*.color1:       #a64040
 *.*.color9:       #c27171
 
 ! green
@@ -20,16 +20,16 @@
 *.*.color11:      #bfc271
 
 ! blue
-*.*.color4:       #6385a6
-*.*.color12:      #719bc2
+*.*.color4:       #63a69b
+*.*.color12:      #71c2af
 
 ! orange
 *.*.color5:       #BF9C86
 *.*.color13:      #BF9C86
 
 ! cyan
-*.*.color6:       #63a69b
-*.*.color14:      #71c2af
+*.*.color6:       #d7ffff
+*.*.color14:      #d7ffff
 
 ! white
 *.*.color7:       #c0c5ce
@@ -39,7 +39,7 @@
 ! ROFI Color theme
 ! ------------------------------------------------------------------------------
 rofi.color-enabled: true
-rofi.color-window: #333333, #71c2af, #333333
-rofi.color-normal: #71c2af, #333333, #71c2af, #333333, #71c2af
-rofi.color-active: #a6a663, #333333, #a6a663, #333333, #a6a663
-rofi.color-urgent: #a66363, #333333, #a66363, #333333, #a66363
+rofi.color-window: #212121, #71c2af, #212121
+rofi.color-normal: #71c2af, #212121, #71c2af, #212121, #71c2af
+rofi.color-active: #a6a663, #212121, #a6a663, #212121, #a6a663
+rofi.color-urgent: #a66363, #212121, #a66363, #212121, #a66363

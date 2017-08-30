@@ -5,8 +5,7 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-cowsay -f stegosaurus "Welcome, $USER" | lolcat
-echo "\n"
+~/colorscript.sh
 curl -s "wttr.in/?0" | tail -n +2
 echo "\n"
 screenfetch -t
