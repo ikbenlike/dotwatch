@@ -62,9 +62,9 @@ background = #212121
 foreground = #d7ffff
 radius = 0.0
 line-size = 1
-line-color = #a64040
+line-color = #71C2AF
 border-size = 0
-border-color = #a64040
+border-color = #71C2AF
 padding = 1
 module-margin = 1
 override-redirect = false
@@ -75,7 +75,6 @@ font-2 = DroidSansGeorgian-Bold:size=12;2
 font-3 = NotoSansMongolian-Bold:size=12;2
 font-4 = DroidSansHebrew-Bold:size=12;2
 font-5 = siji-Bold:size=12;2
-;modules-left = filesystem
 modules-center = bspwm
 modules-right = cpu date
 tray-detached = true
@@ -83,9 +82,7 @@ tray-position = left
 tray-maxsize = 16
 tray-padding = 1
 border-bottom-size = 2
-border-bottom-color = #872a2a
-;underline-size = 1
-;underline-color = #872a2a
+border-bottom-color = #71C2AF
 
 [settings]
 throttle-output = 5
