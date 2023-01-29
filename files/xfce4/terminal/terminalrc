@@ -33,4 +33,7 @@ MiscRewrapOnResize=TRUE
 MiscCopyOnSelect=FALSE
 MiscUseShiftArrowsToScroll=FALSE
 MiscSlimTabs=FALSE
+MiscShowRelaunchDialog=TRUE
+MiscNewTabAdjacent=FALSE
+ScrollingBar=TERMINAL_SCROLLBAR_NONE
 

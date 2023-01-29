@@ -10,28 +10,32 @@ super + Return
 super + d
 	rofi -show run
 
+# emacs
+super + e
+	env XMODIFIERS="" emacs
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 
 # media controls
 XF86AudioPlay
-	exec playerctl play-pause
+	exec playerctl -i chrome play-pause
 
 XF86AudioNext
-	exec playerctl next
+	exec playerctl -i chrome next
 
 XF86AudioPrev
-	exec playerctl previous
+	exec playerctl -i chrome previous
 
 XF86AudioStop
-	exec playerctl play-pause
+	exec playerctl -i chrome play-pause
 
 XF86AudioRaiseVolume
-	exec playerctl volume +.05
+	exec playerctl -i chrome volume +.05
 
 XF86AudioLowerVolume
-	exec playerctl volume -.05
+	exec playerctl -i chrome volume -.05
 
 super + space
 	exec playerctl play-pause

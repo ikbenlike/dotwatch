@@ -1,6 +1,6 @@
 "../files/bspwm/bspwmrc" = "~/.config/bspwm/bspwmrc"
 "../files/sxhkd/sxhkdrc" = "~/.config/sxhkd/sxhkdrc"
-"../files/polybar/config" = "~/.config/polybar/config"
+"../files/polybar/config.ini" = "~/.config/polybar/config.ini"
 "../files/xfce4/terminal/terminalrc" = "~/.config/xfce4/terminal/terminalrc"
 "../files/zshrc" = "~/.zshrc" 
 "../files/xinitrc" = "~/.xinitrc"

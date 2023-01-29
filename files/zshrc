@@ -5,16 +5,44 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-~/colorscript.sh
-curl -s "wttr.in/?0" | tail -n +2
-echo "\n"
-screenfetch -t
-export PATH="$HOME/opt/cross/bin:$HOME/dot/bin:$PATH"
-dprf() {
-    CURDIR=$(pwd)
-    cd ~/dot/bin
-    echo $(pwd)
-    dotter -f dotter_settings/reverse_files.toml deploy
-    echo "Dotter exited with $?"
-    cd $CURDIR
-}
+#alias 'v'='valgrind !!'
+#alias 'emacs'='XMODIFIERS="" emacs'
+
+if (( ${+NO_UGLY_INIT})); then
+    true
+else
+    ~/colorscript.sh
+    echo "\n"
+    screenfetch -t
+
+    function dot-save() {
+        curdir=$(pwd)
+        cd ~/dot/bin
+        echo "$(pwd)"
+        dotter -f dotter_settings/reverse_files.toml deploy
+        echo "Dotter exited with $?"
+        cd $curdir
+    }
+
+    function dot-deploy() {
+        echo -n "This operation is destructive. Proceed? [yes/no]"
+        read answer
+        if [[ answer != "yes" ]] then
+            echo "Exiting..."
+            return 1;
+        fi;
+        curdir=$(pwd)
+        cd ~/dot/bin
+        echo "$(pwd)"
+        dotter deploy
+        echo "Dotter exited with $?"
+        cd $curdir
+    }
+fi
+
+alias 'sbcl'='rlwrap sbcl'
+alias 'v'='valgrind !!'
+alias 'emacs'='env --unset=XMODIFIERS emacs'
+alias 'w'='curl -s "wttr.in/?0" | tail -n +2'
+
+export PATH="$HOME/opt/cross/bin:$HOME/dot/bin:$HOME/.local/bin:$PATH"
